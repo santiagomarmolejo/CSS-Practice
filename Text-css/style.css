@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 2vh;
+}
+
+.nav_buttons {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.nav_buttons > li {
+    margin-left: 20px;
+}
+
+.container {
+    margin: 0px 15% 0px 15%;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    height: 98vh;
+}
+
+.main_text {
+    width: 100%;
+}
+
+.main_img {
+    width: 50%;
+}
+
+.section_text {
+    width: 50%;
+}
+
+.section_img {
+    width: 50%;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.gradient_bg{
+    background: linear-gradient(45deg, #E86ED0, #B1E8ED);
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 70px;
+}
+
+p {
+    font-family: 'Catamaran', sans-serif;
+}
+
+.flex_row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn {
+    padding: 15px ;
+    width: 100%;
+    margin-top: 30px;
+    border: none;
+}
+
+.contact {
+    height: 100vh;
+    background-color: #101010;
+    
+}
+
+.half {
+    width: 50%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form > input {
+    margin: 20px 0 20px 0;
+    border: none;
+    background: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    color: white;
+}
+
+.form > input::placeholder {
+    padding: 20px;
+    color: rgba(255, 255, 255, 0.494);
+    margin-bottom: 20px;
+}
+
+.flex_column{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15%;
+    
+}
+
+h2 {
+    color: white;
+    font-size: 50px;
+}
+
+.contact p {
+    color: white;
+}
+
+.form button {
+    color: white;
+    border: none;
+    background-color: #6C63FF;
+    height: 50px;
+}
+
+footer {
+    background-color: #6C63FF;
+    color: white;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    font-family: 'Catamaran', sans-serif;
+    
+}
